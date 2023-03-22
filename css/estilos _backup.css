@@ -52,11 +52,14 @@ main{
     border: 5px solid floralwhite;
     border-radius: 10px;
 }
+.imagender:hover{
+    zoom:20%;
+}
 .videocontainer{
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 40%;
+  padding-top:30%;
 }
 .video{
     position: absolute;
@@ -66,9 +69,9 @@ main{
     right: 0;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 10%;
-    width: 80%;
-    height: 90%;
+    margin-left: 15%;
+    width: 70%;
+    height: 88%;
 }
 
 /* padding entre columnas */
@@ -80,6 +83,11 @@ main{
 .column {
     float: left;
     width: 25%;
+}
+.titulocred{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
 }
 footer{
     text-decoration: none;
@@ -94,12 +102,13 @@ footer{
     padding-right: 2%;
     display:inline-block
 }
-.footer_link_decoration{
+.footerlinks_linkDecoration{
     text-decoration: none;
     color: black;
+    font-size: x-large;
     font-family: "Roboto";
-    font-weight: bolder ;
+    font-weight:bolder ;
 }
-.footer_link_decoration:hover{
+.footerlinks_linkDecoration:hover{
     color: gray;
 }

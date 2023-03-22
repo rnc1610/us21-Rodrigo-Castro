@@ -48,6 +48,10 @@ main{
 .titulo_bold{
     font-weight: bolder;
 }
+.imagender{
+    border: 5px solid floralwhite;
+    border-radius: 10px;
+}
 .videocontainer{
   position: relative;
   overflow: hidden;

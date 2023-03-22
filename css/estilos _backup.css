@@ -31,100 +31,7 @@ main{
 .titulo_bold{
     font-weight: bolder;
 }
-.titulo_formulario{
-    font-weight: bold;
-    color: white;
-    background-color: #3E7CA3;
-    text-align: center; 
-}
-.titulo_contacto{
-    font-weight: bold;
-}
-.parrafo_contacto{
-    font-size: large;
-}
-.test{
-    padding-left: 200px;
-}
-.boton_enviar{
-    color:white;
-    font-weight: bolder;
-}
-#row_background{
-    background-color: #3E7CA3;
-}
-#row_background2{
-    background-color:#7ca6c2;
-}
-#mapa{
-    align-items: end;
-    justify-content: center;
-}
-#fecha{
-    text-align: center;
-    color: white;
-    font-size: large;
-    font-weight: bold;
-}
-#comprar{
-    color: white;
-    font-weight: bolder;
-    background-color: #01436b
-}
-#estadio{
-    text-align: left;
-    color: white;
-    font-size: large;
-    font-weight: bold;
-}
-#estadiosub{
-    text-align: left;
-    color: white;
-    font-size: small;
-    font-weight: bold;
-}
-/*galeria de imagenes*/
-.centercar{
-    display: flex;
-    justify-content: center;
-}
-#carouselfotosalf{
-    height: 100%;
-    width: 80%;
-}
-.carousel-img{
-    width: 100%;
-    height: 80%;
-}
-.titulo_video{
-    font-size: 20px;
-    margin: 5px;
-    float: inline-start;
-    width: 350px;
-}
-.videos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*Tienda grid*/
-.centerprod{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card{
-    width: 100%;
-    height: 100%;
-}
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit:contain;
-}
-.card-title{
-    object-fit: contain;
-}
+
 /* padding entre columnas */
 .row,
 .row > .column {
@@ -157,15 +64,3 @@ footer{
 .footer_link_decoration:hover{
     color: gray;
 }
-/* para usar id e invocarlo utilizo #NombreDelId el id es el mas especifico*/
-/*regla de padres e hijos - que tag esta dentro de otra, por ejemplo <a> dentro de <div> / si lo hijos tienen propiedades no heredan de los padres*/
-/* para invocar class .nombreDeClase 
-.colorHeader{
-    background-color: rgb(231, 199, 199);
-}*/
-/* para comentar 
-selector{
-    propiedad: valor;
-    propiedad: valor;
-}
-*/

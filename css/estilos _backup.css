@@ -1,7 +1,7 @@
 /*Agregar comentarios a cada seccion en html y css*/
 @font-face { 
     font-family: "Roboto"; 
-    src: url("../Assets/font/Roboto-Light.ttf"); 
+    src: url("../activos/fonts/Roboto-Light.ttf"); 
 }
 body{
     font-family: "Roboto";
@@ -12,6 +12,9 @@ body{
 }
 header{
     height: 12vh;
+}
+.backgroundheader{
+    background-image: url(../activos/foto/foto\ cv.jpg);
 }
 .banner{
     object-fit: cover;

@@ -11,28 +11,60 @@ body{
     padding: 0;
 }
 header{
-    height: 12vh;
+    height: 15vh;
 }
 .backgroundheader{
-    background-image: url(../activos/foto/foto\ cv.jpg);
+    background-image: url(../activos/foto/Blog\ Banner\ \(37\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
 }
-.banner{
-    object-fit: cover;
-    padding: 0;
+.tituloheader{
+    color: floralwhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .gradient_main{
     background-color:  #7ac3f3;
-    font-size: x-large;
 }
 main{
     background-color:floralwhite;
     padding-top: 20px;
+}
+.inline{
+    float: left;
+    padding-right: 2%;
+}
+.titulocarta{
+    display: flex;
+    text-align: center ;
+}
+.firma{
+    display: flex;
+    justify-content:flex-end;
 }
 .parrafo_index{
     font-size: large;
 }
 .titulo_bold{
     font-weight: bolder;
+}
+.videocontainer{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 40%;
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    width: 80%;
+    height: 90%;
 }
 
 /* padding entre columnas */

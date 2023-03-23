@@ -18,14 +18,38 @@
         <!--para agregar imagenes, uso esta estructura - img src="./Assets/img/index.jpg" alt="">-->
         <!--container fluid ocupa 100% del ancho de la pantalla, container centra y no utiliza el 100%-->
         <header class="sticky-top container-fluid backgroundheader">
-            <div class="row align-items-center">
-                <div class="col-sm text-center">
-                    <h1 class="tituloheader"><strong>Rodrigo Nicolás Castro</strong></h1>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid headerss">
+                    <div class="row text-center">
+                    <div class="col-sm">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active header_navlinks" href="#intro">Intro</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active header_navlinks" href="#presentacion">Carta de Presentación</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active header_navlinks" href="#CV">CV</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active header_navlinks" href="#video">Video</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active header_navlinks" href="#logros">Credenciales</a>
+                        </li>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-            </div>
         </header>
         <main>
-            <div class="container-fluid">
+            <div class="container-fluid" id="intro">
             <div class="gradient_main">
                 <div class="row align-items-center">
                     <div class="col-sm">
@@ -33,7 +57,7 @@
                         <!--para multilinea alt +z
                         para grabar crtl+s-->
                         <div class="parrafo_index">
-                        <p>Mi nombre es Rodrigo, soy una persona creativa, dedicada, innovadora que se esfuerza por aprender algo nuevo cada día, ser una persona positiva y superarse constantemente. Poseo habilidades avanzadas en comunicación, liderazgo, organización y trabajo en equipo. Me destacó en el área de tecnología obteniendo el premio Spark Award como empleado destacado en Qurate retail group en el año 2020. En mi tiempo libre, disfruto de estudiar, leer, viajar, practicar deportes, y desarrollar mis habilidades en el área de tecnología.</p>
+                        <p>Mi nombre es Rodrigo Nicolás Castro, soy una persona creativa, dedicada, innovadora que se esfuerza por aprender algo nuevo cada día, ser una persona positiva y superarse constantemente. Poseo habilidades avanzadas en comunicación, liderazgo, organización y trabajo en equipo. Me destacó en el área de tecnología obteniendo el premio Spark Award como empleado destacado en Qurate retail group en el año 2020. En mi tiempo libre, disfruto de estudiar, leer, viajar, practicar deportes, y desarrollar mis habilidades en el área de tecnología.</p>
                         <p>¡Espero que disfruten el contenido del sitio!</p>
                         </div>
                     </div>
@@ -42,13 +66,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="presentacion">
                 <div class="col-sm">
                     <br> 
                     <div>
                     <img class="inline" src="./activos/foto/6213578.png" width=13%>
                     <br>
-                    <h3 class="titulocarta"><strong>Carta de presentacion</strong></h3>
+                    <h3 class="titulocarta"><strong>Carta de presentación</strong></h3>
                     </div>
                     <div>
                         <br> 
@@ -64,7 +88,7 @@
                         <img src="./activos/foto/firma.png" width=50%>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm" id="CV">
                     <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
                     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
                     border-radius: 8px; will-change: transform;">
@@ -76,14 +100,14 @@
                 </div>
             </div>
             </div>
-            <div class="container-fluid videocontainer gradient_main">
+            <div class="container-fluid videocontainer gradient_main" id="video">
                 <div class="row">
                     <div class="col-sm">
                             <iframe class="video" src="https://www.youtube.com/embed/IXFFh4m4QGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div> 
             </div>
-            <div class="container"></div>
+            <div class="container" id="logros">
                 <div class="row align-items-center">
                     <h2 class="titulocred"><strong>Mis logros y credenciales</strong></h2>
                     <div class="col-3 text-center pt-2">
@@ -127,6 +151,7 @@
                         <img class="imagender" src="./activos/foto/badges/data-science-methodology.png" width=75%>
                     </div>
                 </div>
+            </div>
             </div>
         </main>
         <footer class="sticky-bottom pt-3">

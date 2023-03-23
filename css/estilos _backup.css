@@ -10,18 +10,33 @@ body{
 .container-fluid{
     padding: 0;
 }
-header{
-    height: 15vh;
+.headerss{
+    height: 7vh;
 }
 .backgroundheader{
-    background-image: url(../activos/foto/Blog\ Banner\ \(37\).png);
+    background-color:#335384;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
+    width: 100%;
 }
-.tituloheader{
-    color: floralwhite;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.navbar-toggler {
+    background-color: floralwhite!important;
+}
+.navbar-toggler-icon{
+    height: 50% !important;
+}
+.navbarTogglerDemo01{
+    background-color:  #000 !important;
+}
+.collapse{
+    background-color:#335384;
+}
+.header_navlinks{
+    color: floralwhite !important;
+    text-decoration: none !important;
+    font-weight: bolder !important;
+    font-size: x-large;
 }
 .gradient_main{
     background-color:  #7ac3f3;

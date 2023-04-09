@@ -39,10 +39,13 @@ body{
     font-size: x-large;
 }
 .gradient_main{
-    background-color:  #7ac3f3;
+    background-image: linear-gradient(to right top, #7ac3f3, #7fc4f2, #84c6f0, #88c7ef, #8dc8ee, #92caee, #98cbed, #9dcded, #a4d0ed, #abd3ed, #b2d6ed, #b9d9ed);
+}
+.gradient_main_inv{
+    background-image: linear-gradient(to left bottom, #fffaf0, #fdf7eb, #fbf3e5, #f8f0e0, #f6eddb, #f2e7d2, #eee2c8, #eadcbf, #e4d2af, #dec9a0, #d7bf90, #d1b681);
 }
 main{
-    background-color:floralwhite;
+    background-image: linear-gradient(to left bottom, #fffaf0, #fdf7eb, #fbf3e5, #f8f0e0, #f6eddb, #f2e7d2, #eee2c8, #eadcbf, #e4d2af, #dec9a0, #d7bf90, #d1b681);
     padding-top: 20px;
 }
 .inline{
@@ -69,6 +72,13 @@ main{
 }
 .imagender:hover{
     zoom:20%;
+}
+.imagenderlogos{
+    border: 5px solid floralwhite;
+    border-radius: 10px;
+}
+.parrafos{
+    font-weight: bold;
 }
 .videocontainer{
   position: relative;
@@ -106,7 +116,8 @@ main{
 }
 footer{
     text-decoration: none;
-    background-color:floralwhite;
+    background-color:#335384;
+    color: white;
     text-align: center;
     font-size: larger;
     font-family: Calibri, sans-serif;
@@ -119,7 +130,7 @@ footer{
 }
 .footerlinks_linkDecoration{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: x-large;
     font-family: "Roboto";
     font-weight:bolder ;

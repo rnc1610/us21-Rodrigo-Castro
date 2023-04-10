@@ -80,6 +80,10 @@ main{
 .parrafos{
     font-weight: bold;
 }
+.parrafoscenter{
+    font-weight: bold;
+    text-align: center;
+}
 .videocontainer{
   position: relative;
   overflow: hidden;
@@ -98,7 +102,27 @@ main{
     width: 70%;
     height: 88%;
 }
-
+.table1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .td1, th {
+    border: 1px solid #000000;
+    background-image: linear-gradient(to right top, #7ac3f3, #7fc4f2, #84c6f0, #88c7ef, #8dc8ee, #92caee, #98cbed, #9dcded, #a4d0ed, #abd3ed, #b2d6ed, #b9d9ed);;
+    padding: 8px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+  }
+  .td2{
+    border: 1px solid #000000;
+    background-color: #F8FAFB;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+  }
 /* padding entre columnas */
 .row,
 .row > .column {
@@ -121,11 +145,13 @@ footer{
     text-align: center;
     font-size: larger;
     font-family: Calibri, sans-serif;
+    margin-bottom: -10%;
 }
 .footerlinks{
     font-family: "Roboto";
     padding-left: 2%;
     padding-right: 2%;
+    margin-bottom: 0%;
     display:inline-block
 }
 .footerlinks_linkDecoration{

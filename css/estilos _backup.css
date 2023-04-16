@@ -84,6 +84,11 @@ main{
     font-weight: bold;
     text-align: center;
 }
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .videocontainer{
   position: relative;
   overflow: hidden;
@@ -106,10 +111,10 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: rgb(167, 195, 231);
   }
   .td1, th {
     border: 1px solid #000000;
-    background-image: linear-gradient(to right top, #7ac3f3, #7fc4f2, #84c6f0, #88c7ef, #8dc8ee, #92caee, #98cbed, #9dcded, #a4d0ed, #abd3ed, #b2d6ed, #b9d9ed);;
     padding: 8px;
     font-weight: bolder;
     text-align: center;
@@ -122,6 +127,48 @@ main{
     text-align: center;
     font-weight: bold;
     font-size: large;
+  }
+  .table2 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  .fortaleza{
+    text-align: left;
+    background-color: rgb(129, 177, 240);
+    width: 50%;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .oportunidades{
+    text-align: left;
+    background-color: rgb(155, 228, 155);
+    width: 50%;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .amenazas{
+    text-align: left;
+    background-color: rgb(217, 228, 155);
+    width: 50%;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .debilidades{
+    text-align: left;
+    background-color: rgb(228, 170, 155);
+    width: 50%;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .centertabletitle{
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: bolder;
+    font-size: x-large;
   }
 /* padding entre columnas */
 .row,

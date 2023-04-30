@@ -128,6 +128,21 @@ main{
     font-weight: bold;
     font-size: large;
   }
+  .fondotablablanco{
+    background-color: #F8FAFB;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .fondoblanco{
+    background-color: #F8FAFB;
+    font-weight: bold;
+    width: 50%;
+    font-size: medium;
+    text-align: left;
+  }
   .table2 {
     width: 90%;
     display: flex;

@@ -43,13 +43,11 @@ body{
 }
 .gradient_main_top{
     background-color: rgb(245, 244, 235);}
-}
 .gradient_main_inv{
     background-color: rgb(245, 244, 235);}
 main{
     padding-top: 20px;
     background-color: rgb(245, 244, 235);}
-}
 .inline{
     float: left;
     padding-right: 2%;

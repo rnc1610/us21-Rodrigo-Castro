@@ -5,7 +5,7 @@
 }
 body{
     font-family: "Roboto";
-    background-color:floralwhite;
+    background-color:rgb(255, 255, 255);
 }
 .container-fluid{
     padding: 0;
@@ -41,12 +41,14 @@ body{
 .gradient_main{
     background-image: linear-gradient(to right top, #7ac3f3, #7fc4f2, #84c6f0, #88c7ef, #8dc8ee, #92caee, #98cbed, #9dcded, #a4d0ed, #abd3ed, #b2d6ed, #b9d9ed);
 }
-.gradient_main_inv{
-    background-image: linear-gradient(to left bottom, #fffaf0, #fdf7eb, #fbf3e5, #f8f0e0, #f6eddb, #f2e7d2, #eee2c8, #eadcbf, #e4d2af, #dec9a0, #d7bf90, #d1b681);
+.gradient_main_top{
+    background-color: rgb(245, 244, 235);}
 }
+.gradient_main_inv{
+    background-color: rgb(245, 244, 235);}
 main{
-    background-image: linear-gradient(to left bottom, #fffaf0, #fdf7eb, #fbf3e5, #f8f0e0, #f6eddb, #f2e7d2, #eee2c8, #eadcbf, #e4d2af, #dec9a0, #d7bf90, #d1b681);
     padding-top: 20px;
+    background-color: rgb(245, 244, 235);}
 }
 .inline{
     float: left;

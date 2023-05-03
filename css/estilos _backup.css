@@ -3,10 +3,13 @@
     font-family: "Roboto"; 
     src: url("../activos/fonts/Roboto-Light.ttf"); 
 }
+html, body {
+    overflow-x: hidden;
+}
 body{
+    position: relative;
     font-family: "Roboto";
     background-color:rgb(255, 255, 255);
-    overflow-x: hidden;
 }
 .container-fluid{
     padding: 0;

@@ -147,7 +147,7 @@ main{
     text-align: left;
   }
   .table2 {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-left:auto;
